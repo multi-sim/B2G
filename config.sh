@@ -29,7 +29,7 @@ case `uname` in
 esac
 
 GITREPO=${GITREPO:-"git://github.com/multi-sim/b2g-manifest"}
-BRANCH=${BRANCH:-master}
+BRANCH=${BRANCH:-multi_rild}
 
 GIT_TEMP_REPO="tmp_manifest_repo"
 if [ -n "$2" ]; then
